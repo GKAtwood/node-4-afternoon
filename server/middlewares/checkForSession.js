@@ -4,4 +4,4 @@ module.exports =  function(req, res, next){
         session.user={username:'', cart: [], total: 0};
     }
     next();
-}
+};
